@@ -4,6 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-coming-soon/blob/master/LICENSE)
  */
 
+/* SAND: #cd9557 */
+/* LIGHT BLUE:  #34344a*/
+
 html {
   height: 100%;
 }
@@ -40,7 +43,7 @@ video {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: #65afff no-repeat center center scroll;
+    background: #34344a no-repeat center center scroll;
     background-position: cover;
   }
   body video {
@@ -55,7 +58,7 @@ video {
   height: 100%;
   width: 100%;
   /* background-color: #cd9557; */
-  background-color: #65afff5d;
+  background-color: #34344a5d;
   opacity: 0.7;
   z-index: 1;
 }
@@ -77,7 +80,7 @@ video {
   min-height: 35rem;
   height: 100%;
   /* background-color: rgba(0, 46, 102, 0.8); */
-  background-color: #65afff;
+  background-color: #34344a;
   transform: skewY(4deg);
   transform-origin: bottom right;
 }

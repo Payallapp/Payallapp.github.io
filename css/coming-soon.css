@@ -5,7 +5,7 @@
  */
 
 /* SAND: #cd9557 */
-/* LIGHT BLUE:  #34344a*/
+/* LIGHT BLUE:  rgb(52, 52, 74);*/
 
 html {
   height: 100%;
@@ -43,7 +43,7 @@ video {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: #34344a no-repeat center center scroll;
+    background: rgb(52, 52, 74) no-repeat center center scroll;
     background-position: cover;
   }
   body video {
@@ -58,7 +58,7 @@ video {
   height: 100%;
   width: 100%;
   /* background-color: #cd9557; */
-  background-color: #34344a5d;
+  background-color: rgb(52, 52, 74);
   opacity: 0.7;
   z-index: 1;
 }
@@ -80,7 +80,7 @@ video {
   min-height: 35rem;
   height: 100%;
   /* background-color: rgba(0, 46, 102, 0.8); */
-  background-color: #34344a;
+  background-color: rgb(52, 52, 74);
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
